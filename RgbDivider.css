@@ -1,0 +1,62 @@
+.custom-shape-rgbdivider {
+	position: relative;
+}
+
+.custom-shape-rgbdivider:before {
+	content: '';
+	background-color: black;
+	background-size: 40px 45px;
+	background-position: -50px 60px;
+	-webkit-mask-image: url('../../assets/wave.svg');
+	mask-image: url('../../assets/wave.svg');
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	mask-position: center;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	position: absolute;
+
+	left: 0;
+	width: 100%;
+	height: 250px;
+}
+
+.gradient-background {
+	background-color: #1b1919;
+}
+
+.hover-underline {
+	display: inline-block;
+	font-weight: 600; /* lub "font-semibold" */
+	text-transform: uppercase;
+	position: relative;
+	transition: all 0.3s ease;
+	color: white;
+	opacity: 0.4;
+}
+
+/* Pseudo-element dla podkreślenia */
+.hover-underline::after {
+	content: '';
+	position: absolute;
+	bottom: 15px; /* Odległość od tekstu (możesz dostosować) */
+	left: 0;
+	width: 100%;
+	height: 2px; /* Grubość podkreślenia */
+	background-color: white; /* Kolor podkreślenia */
+	transform: scaleX(0); /* Początkowy stan: 0% szerokości */
+	transform-origin: bottom right;
+	transition: transform 0.3s ease; /* Animacja do wyciągania */
+}
+
+/* Efekt hover */
+.hover-underline:hover::after {
+	transform: scaleX(1); /* Wysyła podkreślenie na 100% szerokości */
+	transform-origin: bottom left;
+}
+
+.hover-underline:hover {
+	opacity: 1; /* Pełna widoczność */
+	scale: 1.05; /* Delikatne powiększenie */
+}

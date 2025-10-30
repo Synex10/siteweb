@@ -1,0 +1,105 @@
+{
+	"navbar": {
+		"logo": {
+			"highlightedText": "Paname",
+			"plainText": "RolePlay"
+		},
+		"links": [
+			{ "label": "Home", "href": "#home" },
+			{ "label": "About", "href": "#about" },
+			{ "label": "Info", "href": "#info" }
+		]
+	},
+	"hero": {
+		"headline": "A server where you can be whoever you want",
+		"description": "Darkside RP is one of the best GTA V roleplay servers. Join thousands of passionate players and create your own story. Show the world who you truly are.",
+		"cta": "Check it out"
+	},
+	"about": {
+		"items": [
+			{
+				"title": "One-of-a-Kind Roleplay Experience",
+				"icon": "IconDiamond",
+				"description": "Join our FiveM RP server for a unique roleplaying adventure, where creativity thrives. Build your character, shape your story, and create unforgettable moments with others. The possibilities are endless – dive in today!",
+				"buttonText": "Join Now",
+				"buttonClass": "glass-button glass-button_primary"
+			},
+			{
+				"title": "A World Built by Players, for Players",
+				"icon": "IconArrowBadgeDown",
+				"description": "Step into a player-driven world, where every interaction and story is shaped by you. Whether it’s heists, drama, or downtime, our community offers something for everyone. Come build your legacy with us!",
+				"buttonText": "Discover More",
+				"buttonClass": "glass-button glass-button_primary"
+			},
+			{
+				"title": "Craft Your Own Story in Our RP Universe",
+				"icon": "IconHeart",
+				"description": "Create your own narrative in a constantly evolving world. With realistic roleplay and character development, every choice impacts your journey. Join our community of storytellers and make your mark!",
+				"buttonText": "Start Roleplaying",
+				"buttonClass": "glass-button glass-button_primary"
+			},
+			{
+				"title": "Explore a Living, Breathing Map",
+				"icon": "IconMapPin",
+				"description": "Discover a dynamic city filled with events, locations, and hidden gems. Our constantly updated map ensures there’s always something new to explore around every corner.",
+				"buttonText": "Explore Now",
+				"buttonClass": "glass-button glass-button_primary"
+			},
+			{
+				"title": "Built by a Tight-Knit Community",
+				"icon": "IconUsers",
+				"description": "Join a passionate group of players who shape the world together. Whether you’re new or a veteran, our friendly community helps you find your place in the story.",
+				"buttonText": "Meet the Community",
+				"buttonClass": "glass-button glass-button_primary"
+			},
+			{
+				"title": "RP Meets Game Mechanics",
+				"icon": "IconDeviceGamepad2",
+				"description": "Experience immersive roleplay enhanced by in-game mechanics. From custom jobs to detailed inventories, every system is designed to support your character’s development.",
+				"buttonText": "See Features",
+				"buttonClass": "glass-button glass-button_primary"
+			}
+		]
+	},
+	"info": {
+		"items": [
+			{
+				"imageSrc": "1.jpg",
+				"title": "Join a Law Enforcement Faction in Los Santos",
+				"description": "Embark on your Role Play journey as a fearless law enforcement officer. Join one of the many law enforcement factions on our server and enjoy enforcing the law in the city of Los Santos and throughout the state of San Andreas. With the advanced features of the GTA V platform, gameplay in LEA factions is top-tier!",
+				"buttonText": "Become a Law Enforcer",
+				"imageRight": false
+			},
+			{
+				"imageSrc": "2.jpg",
+				"title": "A World of Opportunities Awaits",
+				"description": "Whether you’re into high-speed chases or crime investigations, Los Santos offers endless RP experiences. Play with others, dive into dynamic action, and live out a truly immersive GTA V world.",
+				"buttonText": "Join Now",
+				"imageRight": true
+			},
+			{
+				"imageSrc": "3.jpg",
+				"title": "Step into the Shoes of a Hero",
+				"description": "As a law enforcer, you’ll protect citizens, catch criminals, and bring justice to Los Santos. Be the hero the city needs in a detailed and exciting GTA RP setting!",
+				"buttonText": "Become a Hero",
+				"imageRight": false
+			}
+		]
+	},
+	"footer": {
+		"copyright": "© {{currentYear}} AmazingDev.PL",
+		"logoSrc": "/logo2.png",
+		"contact": {
+			"email": "contact@darkside.pl",
+			"emailHref": "mailto:contact@darkside.pl",
+			"forum": "forum-darkside.pl",
+			"forumHref": "https://forum-darkside.pl"
+		},
+		"disclaimer1": "This project is not affiliated with or endorsed by Rockstar North, Take-Two Interactive, or any other rightsholders. All trademarks belong to their respective owners.",
+		"disclaimer2": "This server is built by the community, for the community. We are independent developers and do not represent any official game publisher or platform.",
+		"creator": {
+			"name": "Synex",
+			"highlightColor": "#f92763"
+		}
+	}
+}
